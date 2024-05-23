@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::<account-number>:root"
+                "AWS": "arn:aws:iam::<account-number>:*"
             },
             "Action": "s3:PutObject",
             "Resource": "<bucket-arn>/*"
