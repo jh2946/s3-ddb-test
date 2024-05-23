@@ -3,14 +3,6 @@
     "Statement": [
         {
             "Effect": "Allow",
-            "Principal": {
-                "AWS": "arn:aws:iam::<account-number>:*"
-            },
-            "Action": "s3:PutObject",
-            "Resource": "<bucket-arn>/*"
-        },
-        {
-            "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
             "Resource": "<bucket-arn>/*"
